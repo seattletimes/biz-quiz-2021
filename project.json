@@ -1,0 +1,22 @@
+{
+  "s3": {
+    "stage": {
+      "bucket": "projects-staging.seattletimes.com",
+      "path": "modified-shipwreck"
+    },
+    "live": {
+      "bucket": "projects.seattletimes.com",
+      "path": "2022/business/biz-quiz-2021"
+    }
+  },
+  "title": "",
+  "description": "",
+  "author": "",
+  "url": "",
+  "post_id": 0,
+  "image": "assets/social.jpg",
+  "sheets": ["1bwKeTz6X2EK4d1kn6muP8WrF4_8Mc_msE7i2vJQ9cRI"],
+  "docs": [],
+  "embedded": true,
+  "production": true
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE doc SYSTEM "/SysConfig/Rules/ST.dtd">
+<?EM-dtdExt /SysConfig/Rules/ST.dtx?>
+<?EM-templateName /SysConfig/Times/Offpage/Templates/story.xml?>
+<doc xml:lang="en-us">
+<story>
+<%
+	var answers = json.answers_for_print;
+  var correct_answers = answers.filter(i => i.correct === "x");
+
+  var scoring = json.results;
+%>
+<text>
+	<% [...Array(12).keys()].forEach(function(i) { %>
+		<p><%= i + 1 %>. <%= correct_answers[i].answer %></p>
+	<% }) %>
+
+	<subhead>Scoring</subhead>
+	<% scoring.forEach(function(p) { %>
+		<p><%= p.min %> to <%= p.max %>: <%= p.description %></p>
+	<% }) %>
+</text>
+</story>
+</doc>

@@ -1,0 +1,173 @@
+[
+  {
+    "id": 1,
+    "answer": "Advising Elon Musk early on to try building electric bikes, not cars."
+  },
+  {
+    "id": 1,
+    "answer": "Running a world-class chicken-wing eating contest",
+    "correct": "x"
+  },
+  {
+    "id": 1,
+    "answer": "Winning a world-class hot dog eating contest"
+  },
+  {
+    "id": 1,
+    "answer": "None of the above"
+  },
+  {
+    "id": 2,
+    "answer": "Boeing delivered 90 of the jets, as demand perked up and it sped up assembly work."
+  },
+  {
+    "id": 2,
+    "answer": "Boeing delivered zero 787s, because a succession of manufacturing issues left it without the FAA's go-ahead to complete deliveries."
+  },
+  {
+    "id": 2,
+    "answer": "Boeing delivered 14 of the jets during a short window in the spring, before and after which deliveries were shut down by a failure to satisfy the FAA about inspections for a succession of manufacturing issues.",
+    "correct": "x"
+  },
+  {
+    "id": 3,
+    "answer": "Liberty Orchards, the maker of Aplets and Cotlets sweets that was founded in 1920 by Armenian immigrants, closed in Cashmere."
+  },
+  {
+    "id": 3,
+    "answer": "Foss Maritime, which dates back to a Tacoma firm started in 1889, shuttered its 150-employee Seattle shipyard, although it will continue to operate tugboats here.",
+    "correct": "x"
+  },
+  {
+    "id": 3,
+    "answer": "Dahlia Lounge, a classic restaurant in downtown Seattle, announced it will not reopen."
+  },
+  {
+    "id": 4,
+    "answer": "\"You don’t really believe the peeing in bottles thing, do you? If that were true, nobody would work for us.\"",
+    "correct": "x"
+  },
+  {
+    "id": 4,
+    "answer": "\"'Star Trek' is better than 'Dune'.\""
+  },
+  {
+    "id": 4,
+    "answer": "\"We will be unable to deliver the majority of holiday packages before Dec. 25 due to supply chain backlogs. Christmas is canceled.\""
+  },
+  {
+    "id": 4,
+    "answer": "\"Our workers don't need to pee in bottles. Each driver is issued an Amazon Basics-brand catheter and drainage bag.\""
+  },
+  {
+    "id": 5,
+    "answer": "A cooperative of grape growers with members from Walla Walla to Stockton, California."
+  },
+  {
+    "id": 5,
+    "answer": "The heirs of Jack Ste. Michelle, who established a winery in Woodinville in the mid-1950s."
+  },
+  {
+    "id": 5,
+    "answer": "The friars of France's Ste. Michelle monastery, after which the winery is named."
+  },
+  {
+    "id": 5,
+    "answer": "One of the biggest U.S. cigarette companies, Altria.",
+    "correct": "x"
+  },
+  {
+    "id": 6,
+    "answer": "The Dreamlifter Operations Center in Everett."
+  },
+  {
+    "id": 6,
+    "answer": "The 787 Dreamliner final assembly tooling equipment in Everett.",
+    "correct": "x"
+  },
+  {
+    "id": 6,
+    "answer": "The Commercial Airplanes headquarters at Longacres."
+  },
+  {
+    "id": 6,
+    "answer": "The 310 acres of undeveloped land it owns beside the Frederickson manufacturing plant."
+  },
+  {
+    "id": 7,
+    "answer": "Amelia Earhart's goggles."
+  },
+  {
+    "id": 7,
+    "answer": "A bronze medallion made from the first hot air balloon ever to fly, in 1783."
+  },
+  {
+    "id": 7,
+    "answer": "Charles Lindbergh's compass.",
+    "correct": "x"
+  },
+  {
+    "id": 7,
+    "answer": "A piece of fabric from the original Wright brothers' Flyer."
+  },
+  {
+    "id": 8,
+    "answer": "A robotic dog used to herd sheep."
+  },
+  {
+    "id": 8,
+    "answer": "An autonomous weeder that uses lasers to zap unwanted plants.",
+    "correct": "x"
+  },
+  {
+    "id": 8,
+    "answer": "A strawberry-picking robot that can mimic the soft touch needed to protect the delicate fruit"
+  },
+  {
+    "id": 9,
+    "answer": "Among retail employees, about 8% are Black, 5% are Asian and about 27.5% are Hispanic or Latino, according to company data. Among corporate employees, about 4% are Black, 7% are Hispanic or Latino and 19% are Asian.",
+    "correct": "x"
+  },
+  {
+    "id": 9,
+    "answer": "Among retail employees, about 20% are Black, 10% are Asian and about 5% are Hispanic or Latino, according to company data. Among corporate employees, about 1% are Black, 2% are Hispanic or Latino and 19% are Asian."
+  },
+  {
+    "id": 9,
+    "answer": "Among retail employees, about 10% are Black, 10% are Asian and about 10% are Hispanic or Latino, according to company data. Among corporate employees, about 15% are Black, 10% are Hispanic or Latino and 6% are Asian."
+  },
+  {
+    "id": 10,
+    "answer": "16%"
+  },
+  {
+    "id": 10,
+    "answer": "109%"
+  },
+  {
+    "id": 10,
+    "answer": "57%",
+    "correct": "x"
+  },
+  {
+    "id": 10,
+    "answer": "3%"
+  },
+  {
+    "id": 11,
+    "answer": "25%",
+    "correct": "x"
+  },
+  {
+    "id": 11,
+    "answer": "45%"
+  },
+  {
+    "id": 11,
+    "answer": "5%"
+  },
+  {
+    "id": 11,
+    "answer": "99.9%"
+  }
+]

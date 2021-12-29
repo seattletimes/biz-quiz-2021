@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <%= t.include("partials/_head.html", grunt.data.json) %>
+    <% if (!json.project.embedded) { %>
+      <%= t.include("partials/_dataLayer.html") %>
+      <script src="https://seattle-times.zeustechnology.com/main.js" async></script>
+      <script src="https://www.seattletimes.com/wp-content/plugins/st-advertising/dist/st-projects-bundle.js" async></script>
+    <% } %>
+    <% if (json.project.production && !json.project.embedded) { %>
+      <%= t.include("partials/_gtm.html") %>
+    <% } %>
+      <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <% if (json.project.production && !json.project.embedded) { %>
+      <%= t.include("partials/_gtmNoScript.html") %>
+    <% } %>
+    <responsive-child>
+        <div class="outer">
+
+
+          <header>
+
+         <!-- <img class="splash" src="./assets/biz-quiz-2018.svg" alt="What's your business IQ?"> -->
+            <!-- <h2 class="quiz-label">Label here</h2> -->
+
+            <!-- <p class="chatter">
+
+              If you know that HQ1 plus HQ2 does not equal HQ3, and that half of HQ2 is not HQ1 but Queens, then the Seattle Times annual biz quiz is for you. Test your knowledge of local business news and see how you rate.
+
+              <a class="share-button"></a>
+            </p> -->
+
+          </header>
+
+          <div class="quiz-container">
+
+            <div class="divider"></div>
+
+            <div class="quiz-box">
+
+              <!-- START OF QUIZ -->
+              <div class="question-box"></div>
+
+            </div>
+
+            <div class="divider"></div>
+
+            <!-- <div class="credits">
+
+              Edited by <span class="credit-name">Rami Grunbaum</span>
+
+            </div> -->
+
+          </div>
+        </div>
+        </responsive-child>
+    <script>
+    <%
+      var quizData = {};
+      json.questions.forEach(function(q) {
+        quizData[q.id] = q;
+      });
+      json.answers.forEach(function(a, index) {
+        var id = a.id;
+        if (!quizData[id].answers) { quizData[id].answers = [] }
+        a.id = index;
+        quizData[id].answers.push(a);
+      });
+
+      // for (var q in quizData) {
+      //   quizData[q].answers.forEach((a, i) => a.initial = String.fromCharCode(65 + i));
+      // }
+    %>
+    var quizData = <%= JSON.stringify(quizData) %>;
+    var resultsData = <%= JSON.stringify(json.results) %>;
+
+
+  </script>
+
+    <script src="app.js" async></script>
+    <% if (json.project.production) { %>
+    <%= !json.project.embedded ? t.include("partials/_analytics.html") : "" %>
+    <%= t.include("partials/_workHere.html") %>
+    <% } %>
+  </body>
+</html>

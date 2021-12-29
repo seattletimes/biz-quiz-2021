@@ -1,0 +1,32 @@
+[
+  {
+    "min": 0,
+    "max": 3,
+    "title": "",
+    "description": "Don't sweat it. You'll read in 2022, right?"
+  },
+  {
+    "min": 4,
+    "max": 5,
+    "title": "",
+    "description": "Thanks for playing. Clearly you have been distracted this year for some reason."
+  },
+  {
+    "min": 6,
+    "max": 7,
+    "title": "",
+    "description": "Good work. Though there's definitely room for improvement — a lot like 2021."
+  },
+  {
+    "min": 8,
+    "max": 9,
+    "title": "",
+    "description": "Well done. You've nearly mastered the business section."
+  },
+  {
+    "min": 10,
+    "max": 11,
+    "title": "",
+    "description": "Great job. Thanks for spending all that time with The Seattle Times."
+  }
+]

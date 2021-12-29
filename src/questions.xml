@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE doc SYSTEM "/SysConfig/Rules/ST.dtd">
+<?EM-dtdExt /SysConfig/Rules/ST.dtx?>
+<?EM-templateName /SysConfig/Times/Offpage/Templates/story.xml?>
+<doc xml:lang="en-us">
+<story>
+<%
+	var questions = json.questions;
+	var answers = json.answers_for_print;
+
+	var grouped_answers =  answers.reduce(function (r, a) { console.log(a);
+        r[a.question_id] = r[a.question_id] || [];
+        r[a.question_id].push(a);
+        return r;
+      }, Object.create(null));
+
+			console.log(grouped_answers);
+%>
+<text>
+	<% [...Array(12).keys()].forEach(function(i) { %>
+		<% question_num = i + 1 %>
+		<% answer_index = "question-" + question_num %>
+		<subhead><%= question_num %></subhead>
+		<p><%= questions[i].question %></p>
+		<% grouped_answers[answer_index].forEach(function(a, i) { %>
+			<p><%= ["A", "B", "C", "D"][i] %>. <%= a.answer %></p>
+		<% }) %>
+	<% }) %>
+</text>
+</story>
+</doc>
